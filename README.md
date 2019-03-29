@@ -11,9 +11,6 @@ README
 开始游戏为enter键<br>
 暂停游戏为空格键<br>
 实现射击为Z键<br>
-![](https://github.com/towaka/ThunderField/blob/master/src/cn/Thunder/Units/images/start.png)
-<br><br><br>
-
 
 主程序启动文件为
 ```Java
