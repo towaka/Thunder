@@ -13,7 +13,7 @@ public class Airplane extends FlyingObject implements Award{
 		imgs = new BufferedImage[5];
 		try {
 			for (int i = 0; i < imgs.length; i++) {
-				String png = "cn/Thunder/Units/images/airplane" + i + ".png";//获取图片路径
+				String png = "cn/Thunder/images/airplane" + i + ".png";//获取图片路径
 				imgs[i] = ImageIO.read(Airplane.class.getClassLoader().getResourceAsStream(png));
 			}
 		} catch (Exception e) {

@@ -1,7 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/cn/Thunder/Others/Award.java=GBK
 encoding//src/cn/Thunder/Others/RollingBackGround.java=GBK
-encoding//src/cn/Thunder/Others/ThunderField.java=GBK
 encoding//src/cn/Thunder/Units/Airplane.java=GBK
 encoding//src/cn/Thunder/Units/BaseUnit.java=GBK
 encoding//src/cn/Thunder/Units/BigPlaneAward.java=GBK
@@ -9,4 +8,5 @@ encoding//src/cn/Thunder/Units/Bullet.java=GBK
 encoding//src/cn/Thunder/Units/FlyingObject.java=GBK
 encoding//src/cn/Thunder/Units/Friendly.java=UTF-8
 encoding//src/cn/Thunder/Units/PlayerUnit.java=GBK
+encoding//src/cn/Thunder/boot/ThunderField.java=GBK
 encoding/<project>=GBK

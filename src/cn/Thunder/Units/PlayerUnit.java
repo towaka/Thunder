@@ -19,7 +19,7 @@ public class PlayerUnit extends FlyingObject {
 		//nextImage()
 		try {
 			for (int i = 0; i < imgs.length; i++) {
-				String png = "cn/Thunder/Units/images/hero" + i + ".png";//获取图片路径
+				String png = "cn/Thunder/images/hero" + i + ".png";//获取图片路径
 				imgs[i] = ImageIO.read(PlayerUnit.class.getClassLoader().getResourceAsStream(png));
 			}
 		} catch (Exception e) {

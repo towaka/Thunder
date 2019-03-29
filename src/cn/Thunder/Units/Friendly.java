@@ -19,7 +19,7 @@ public class Friendly extends FlyingObject implements Punishment{
 		imgs = new BufferedImage[17];
 		try {
 			for (int i = 0; i < imgs.length; i++) {
-				String png = "cn/Thunder/Units/images/friendly_" + i + ".png";// ��ȡͼƬ·��
+				String png = "cn/Thunder/images/friendly_" + i + ".png";// ��ȡͼƬ·��
 				imgs[i] = ImageIO.read(Friendly.class.getClassLoader().getResourceAsStream(png));
 			}
 		} catch (Exception e) {

@@ -10,7 +10,7 @@ public class Bullet extends FlyingObject{
 	private static BufferedImage img;//定义一个唯一的图片素材,静态属性
 	//静态代码块用于获取图片资源
 	static{
-		String png = "cn/Thunder/Units/images/bullet_01.png";//获取图片路径
+		String png = "cn/Thunder/images/bullet_01.png";//获取图片路径
 		try {
 			img = ImageIO.read(Bullet.class.getClassLoader().getResourceAsStream(png));
 		} catch (IOException e) {

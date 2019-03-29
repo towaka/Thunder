@@ -13,7 +13,7 @@ public class BigPlane extends FlyingObject implements Award{
 		imgs = new BufferedImage[5];
 		try {
 			for (int i = 0; i < imgs.length; i++) {
-				String png = "cn/Thunder/Units/images/bigplane" + i + ".png";//��ȡͼƬ·��
+				String png = "cn/Thunder/images/bigplane" + i + ".png";//��ȡͼƬ·��
 				imgs[i] = ImageIO.read(BigPlane.class.getClassLoader().getResourceAsStream(png));
 			}
 		} catch (Exception e) {

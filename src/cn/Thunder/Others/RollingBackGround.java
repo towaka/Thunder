@@ -13,7 +13,7 @@ public class RollingBackGround extends FlyingObject{
 	private static BufferedImage img;//定义一个唯一的图片素材
 	//静态代码块用于获取图片资源
 	static{
-		String png = "cn/Thunder/Units/images/background.png";//获取图片路径
+		String png = "cn/Thunder/images/background.png";//获取图片路径
 		try {
 			img = ImageIO.read(RollingBackGround.class.getClassLoader().getResourceAsStream(png));
 		} catch (IOException e) {

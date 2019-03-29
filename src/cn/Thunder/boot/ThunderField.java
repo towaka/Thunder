@@ -1,4 +1,4 @@
-package cn.Thunder.Others;
+package cn.Thunder.boot;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -12,6 +12,11 @@ import java.util.TimerTask;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
+import cn.Thunder.Others.Award;
+import cn.Thunder.Others.Constant;
+import cn.Thunder.Others.Punishment;
+import cn.Thunder.Others.RollingBackGround;
 import cn.Thunder.Units.Airplane;
 import cn.Thunder.Units.BaseUnit;
 import cn.Thunder.Units.BigPlane;
@@ -59,13 +64,13 @@ public class ThunderField extends JPanel {
 	static {
 		try {
 			wing = ImageIO
-					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/Units/images/icon.png"));
+					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/images/icon.png"));
 			ready = ImageIO
-					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/Units/images/start.png"));
+					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/images/start.png"));
 			pause = ImageIO
-					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/Units/images/pause.png"));
+					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/images/pause.png"));
 			gameOver = ImageIO
-					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/Units/images/gameover.png"));
+					.read(ThunderField.class.getClassLoader().getResourceAsStream("cn/Thunder/images/gameover.png"));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
