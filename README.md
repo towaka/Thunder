@@ -14,6 +14,11 @@ README
 <br>
 ![](https://github.com/towaka/Thunder/blob/master/src/cn/Thunder/images/start.png)
 /<br>
+
+本项目类和接口之间的UML图
+![](https://github.com/towaka/Thunder/blob/master/src/cn/Thunder/thunder%20uml.png)
+/<br>
+
 主程序启动文件为
 ```Java
 ThunderField/src/cn/Thunder/Others/ThunderField.java 
